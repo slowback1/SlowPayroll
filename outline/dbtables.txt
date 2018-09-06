@@ -1,0 +1,4 @@
+adminUsers : (admin@gmail.com, '1234')
+    id email password
+employeeInfo : 
+    id firstname lastname email salary

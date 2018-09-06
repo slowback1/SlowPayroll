@@ -1,0 +1,51 @@
+| Styles
+| -- Style.css
+| -- /* Assorted .scss files */
+| Templates
+| -- header.php
+| -- footer.php
+| -- employee_info.php
+| -- 
+| -- 
+| Login
+| -- Employer.php
+| -- Employee.php
+| 
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+ 

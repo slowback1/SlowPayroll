@@ -1,0 +1,19 @@
+[05-Sep-2018 23:12:55 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/login/login_a.php on line 7
+[05-Sep-2018 23:13:13 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/login/login_a.php on line 36
+[05-Sep-2018 23:18:33 UTC] PHP Fatal error:  Using $this when not in object context in /home/ubuntu/workspace/login/login_a.php on line 5
+[05-Sep-2018 23:18:33 UTC] PHP Stack trace:
+[05-Sep-2018 23:18:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/employer.php:0
+[05-Sep-2018 23:18:33 UTC] PHP   2. Login() /home/ubuntu/workspace/login/employer.php:4
+[05-Sep-2018 23:18:43 UTC] PHP Fatal error:  Using $this when not in object context in /home/ubuntu/workspace/login/login_a.php on line 5
+[05-Sep-2018 23:18:43 UTC] PHP Stack trace:
+[05-Sep-2018 23:18:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/employer.php:0
+[05-Sep-2018 23:18:43 UTC] PHP   2. Login() /home/ubuntu/workspace/login/employer.php:4
+[05-Sep-2018 23:20:34 UTC] PHP Fatal error:  Using $this when not in object context in /home/ubuntu/workspace/login/login_a.php on line 5
+[05-Sep-2018 23:20:34 UTC] PHP Stack trace:
+[05-Sep-2018 23:20:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/employer.php:0
+[05-Sep-2018 23:20:34 UTC] PHP   2. Login() /home/ubuntu/workspace/login/employer.php:4
+[05-Sep-2018 23:20:41 UTC] PHP Fatal error:  Using $this when not in object context in /home/ubuntu/workspace/login/login_a.php on line 5
+[05-Sep-2018 23:20:41 UTC] PHP Stack trace:
+[05-Sep-2018 23:20:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/employer.php:0
+[05-Sep-2018 23:20:41 UTC] PHP   2. Login() /home/ubuntu/workspace/login/employer.php:4
+[05-Sep-2018 23:28:23 UTC] PHP Parse error:  syntax error, unexpected 'include' (T_INCLUDE) in /home/ubuntu/workspace/login/login_a.php on line 3

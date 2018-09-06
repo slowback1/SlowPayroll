@@ -1,0 +1,112 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+nav {
+  width: 100%;
+  background-color: #222;
+  color: #aaa;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 32px;
+  align-items: center; }
+  nav .homeLink a img {
+    width: 20px;
+    height: 20px;
+    background-color: #aaa;
+    border-radius: 100%; }
+  nav .headerLinks {
+    height: 20px;
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    nav .headerLinks .loginSection {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 35%;
+      border: 1px solid #aaa; }
+
+.body {
+  margin-top: 20px;
+  border: 1px solid #222;
+  width: 50%;
+  margin-left: 25%;
+  text-align: center; }
+  .body h2 {
+    font-size: 24px;
+    font-weight: 500; }
+  .body .bodyBox {
+    margin-top: 15px;
+    margin-bottom: 15px; }
+    .body .bodyBox p {
+      margin-top: 10px; }
+
+.footer {
+  margin-top: 100px;
+  width: 100%;
+  height: 50px;
+  background-color: #222;
+  color: #aaa;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; }
+  .footer .socialList {
+    align-self: flex-end;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%; }
+    .footer .socialList a img {
+      height: 30px;
+      width: 30px; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,22 @@
+.footer {
+    margin-top: 100px;
+    width: 100%;
+    height: 50px;
+    background-color: $colors_background_primary;
+    color: $colors_fonts_primary;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    .socialList {
+        align-self: flex-end;
+        height: 30px;
+        width: 30px;
+        border-radius: 100%;
+        a {
+            img {
+                height: 30px;
+                width: 30px;
+            }
+        }
+    }
+}
