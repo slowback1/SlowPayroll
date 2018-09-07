@@ -15,7 +15,7 @@ function Login() {
         while($row = $k->fetch_assoc()) {
             if($username == $row['email'] && $password == $row['password']) {
                 echo "found a match";
-                setcookie("admin", "admin" . $row["id"], time() + 86400 * 7, "/" );
+                setcookie("admin", $row["id"], time() + 86400 * 7, "/" );
                 redirect('../index.php');
             }
         }

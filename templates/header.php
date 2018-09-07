@@ -16,11 +16,11 @@
             </div>
             <div class="headerLinks">
                 <?php if($isLoggedInEmployee): ?>
-                    <a href="">Overview</a>
+                    <a href="employee_overview.php">Overview</a>
                     <a href="">History - Hours</a>
                     <a href="">History - Salary</a>
                     <div class="loginSection">
-                        <a href="">Logout</a>
+                        <a href="login/logout_u.php">Logout</a>
                     </div>
                 <?php endif; ?>
                 <?php if($isLoggedInEmployer): ?>
@@ -34,7 +34,7 @@
                 <?php endif;?>
                 <?php if(!$isLoggedInEmployer && !$isLoggedInEmployee): ?>
                     <div class="loginSection">
-                        <a href="">Login - Employee</a>
+                        <a href="employee_login.php">Login - Employee</a>
                         <a href="employer_login.php">Login - Employer</a>
                     </div>
                 <?php endif; ?>
