@@ -1,3 +1,8 @@
+<?php 
+    $isLoggedInEmployee = ($_COOKIE["user"] != null);
+    $isLoggedInEmployer = ($_COOKIE["admin"] != null);
+?>
+
 <html>
     
     <head>
@@ -19,11 +24,12 @@
                     </div>
                 <?php endif; ?>
                 <?php if($isLoggedInEmployer): ?>
-                    <a href="">View Employees</a>
+                    <a href="view_employees.php">View Employees</a>
+                    <a href="add_employee.php">Add An Employee</a>
                     <a href="">Payroll Overview</a>
                     <a href="">Hours Overview</a>
                     <div class="loginSection">
-                        <a href="">Logout</a>
+                        <a href="login/logout_a.php">Logout</a>
                     </div>
                 <?php endif;?>
                 <?php if(!$isLoggedInEmployer && !$isLoggedInEmployee): ?>

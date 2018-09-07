@@ -1,24 +1,30 @@
 <?php 
-include '../db/connect.php';
-include 'test_input.php';
-include '../db/password_hasher.php';
 
 function Login() {
+    include '../db/connect.php';
+    include 'test_input.php';
     if(empty($_POST['username']) || empty($_POST['password'])) {
         echo "needs both username and password";
         return false;
     }
     $username = test_input($_POST['username']);
     $password = storePW(test_input($_POST['password']));
-    $query = "select name, email from adminUsers where username='$username' and password='$password' and confirmcode='y'";
-    $result = mysql_query($qry, $db);
-    if(!$result || mysql_num_rows($result) <= 0) {
+    echo $username . ' ' . $password . '<br /> <br />';
+    $k = $db->query("select * from adminUsers");
+    if($k->num_rows > 0) {
+        while($row = $k->fetch_assoc()) {
+            if($username == $row['email'] && $password == $row['password']) {
+                echo "found a match";
+                setcookie("admin", "admin" . $row["id"], time() + 86400 * 7, "/" );
+                redirect('../index.php');
+            }
+        }
         echo "username or password don't match";
         return false;
     }
-    session_start();
-    $_SESSION[$this->GetLoginSessionVar()] = $username;
 }
+include 'redirect.php';
+Login();
 /*
 
 function Login() {
@@ -58,4 +64,5 @@ function CheckLoginDB($username, $password) {
     return true;
 }
 */
+
 ?>

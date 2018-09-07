@@ -1,4 +1,26 @@
 adminUsers : (admin@gmail.com, '1234')
     id email password
 employeeInfo : 
-    id firstname lastname email salary
+            id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+            firstname VARCHAR(255) NOT NULL,
+            lastname VARCHAR(255) NOT NULL,
+            email VARCHAR(255) NOT NULL,
+            join_date TIMESTAMP,
+            salary INT(10) NOT NULL,
+            salary_type VARCHAR(20) NOT NULL,
+            hoursMoSt VARCHAR(10),
+            hoursMoEn VARCHAR(10),
+            hoursTuSt VARCHAR(10),
+            hoursTuEn VARCHAR(10),
+            hoursWeSt VARCHAR(10),
+            hoursWeEn VARCHAR(10),
+            hoursThSt VARCHAR(10),
+            hoursThEn VARCHAR(10),
+            hoursFrSt VARCHAR(10),
+            hoursFrEn VARCHAR(10),
+            hoursSaSt VARCHAR(10),
+            hoursSaEn VARCHAR(10),
+            hoursSuSt VARCHAR(10),
+            hoursSuEn VARCHAR(10),
+            bonuses INT(15),
+            pay_schedule VARCHAR(15) NOT NULL

@@ -1,7 +1,7 @@
 <?php include 'templates/header.php'; ?>
 <div class="body">
     <h2> Employer Login </h2>
-    <form id="login" action='login_a.php' method="post" accept-charset="UTF-8">
+    <form id="login" action='login/login_a.php' method="post" accept-charset="UTF-8">
         <fieldset>
             <input type="hidden" name="submitted" id="submitted" value="1" />
             <label for="username">Email: </label>

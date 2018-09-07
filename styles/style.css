@@ -51,8 +51,8 @@ a {
 
 nav {
   width: 100%;
-  background-color: #222;
-  color: #aaa;
+  background-color: #e1e285;
+  color: #252521;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -61,7 +61,7 @@ nav {
   nav .homeLink a img {
     width: 20px;
     height: 20px;
-    background-color: #aaa;
+    background-color: #e1e285;
     border-radius: 100%; }
   nav .headerLinks {
     height: 20px;
@@ -74,11 +74,11 @@ nav {
       flex-direction: row;
       justify-content: space-around;
       width: 35%;
-      border: 1px solid #aaa; }
+      border: 1px solid #252521; }
 
 .body {
   margin-top: 20px;
-  border: 1px solid #222;
+  border: 1px solid #e1e285;
   width: 50%;
   margin-left: 25%;
   text-align: center; }
@@ -95,8 +95,8 @@ nav {
   margin-top: 100px;
   width: 100%;
   height: 50px;
-  background-color: #222;
-  color: #aaa;
+  background-color: #e1e285;
+  color: #252521;
   display: flex;
   flex-direction: column;
   align-items: flex-start; }
@@ -108,5 +108,29 @@ nav {
     .footer .socialList a img {
       height: 30px;
       width: 30px; }
+
+.bodyTable {
+  border: 1px solid black;
+  width: 90%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 5%; }
+  .bodyTable .bodyRow {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid black; }
+    .bodyTable .bodyRow .bodyRowItem {
+      min-width: 30%;
+      max-width: 33%;
+      border-right: 1px solid black;
+      margin-left: 5px; }
+    .bodyTable .bodyRow .bodyRowItemFirst {
+      width: 7%;
+      border-right: 1px solid black;
+      margin-left: 0px; }
+    .bodyTable .bodyRow .bodyRowItemLast {
+      margin-left: 5px;
+      width: 33%; }
 
 /*# sourceMappingURL=style.css.map */
