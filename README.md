@@ -1,5 +1,7 @@
 # Payroll management system using PHP and MySQL
 
+This is an early WIP, more to come soon!
+
 based on project found on https://projectabstracts.com/23967/payroll-management-system-using-php-and-mysql.html
 
  Payroll is a method of admistering employee's salaries in an organization.  The process consist of calculation of employee salaries and tax deductions, admistrating employee benefits and payment of salaries.  Our payroll management system is fully integrated with accounts and gives the benefits of simplified payroll processing and accounting.
