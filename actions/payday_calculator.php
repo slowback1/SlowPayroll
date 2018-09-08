@@ -1,5 +1,6 @@
 <?php
 
+
 function payday_calculator($salary, $salary_type, $salary_schedule, $hours=40) {
         if($salary_type == 'annual') {
             return payday_setter($salary, $salary_schedule);

@@ -1,6 +1,6 @@
 <?php include 'templates/header.php' ?>
 <?php if($isLoggedInEmployer) { ?>
-    <h1> Hi Admin! </h1>
+    <?php include 'admin_index.php'; ?>
 <?php } if($isLoggedInEmployee) { ?>
     <?php include 'employee_index.php'; ?>
 <?php } if(!$isLoggedInEmployer && !$isLoggedInEmployee) { ?>

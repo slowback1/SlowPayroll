@@ -44,7 +44,7 @@
         hoursSaEn='$SaEn',
         hoursSuSt='$SuSt',
         hoursSuEn='$SuEn'
-    WHERE id=$id";
+    WHERE id='$id'";
     if($db->query($qry) === TRUE) {
         redirect("../index.php");
     } else {
