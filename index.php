@@ -2,7 +2,7 @@
 <?php if($isLoggedInEmployer) { ?>
     <h1> Hi Admin! </h1>
 <?php } if($isLoggedInEmployee) { ?>
-    <h1> Hi User! </h1>
+    <?php include 'employee_index.php'; ?>
 <?php } if(!$isLoggedInEmployer && !$isLoggedInEmployee) { ?>
 
 <div class="body">

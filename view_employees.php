@@ -11,9 +11,9 @@
             $result = $db->query($qry);
             if($result->num_rows > 0 ) {
                 echo "<div class='bodyTable'>";
-                echo "<div class='bodyRow'><div class='bodyRowItemFirst'></div><div class='bodyRowItem'>ID</div><div class='bodyRowItem'>Name</div><div class='bodyRowItemLast'>Salary</div></div>";
+                echo "<div class='bodyRow'><div class='bodyRowItemFirst'></div><div class='bodyRowItem'>ID</div><div class='bodyRowItem'>Name</div><div class='bodyRowItem'>Payment Due</div><div class='bodyRowItemLast'>Payment Due Date</div></div>";
                 while($row = $result->fetch_assoc()) {
-                    employee_view($row['id'], $row['firstname'], $row['lastname'], $row['salary']);
+                    employee_view($row['id'], $row['firstname'], $row['lastname'], $row['salary'], $row['salary_type'], $row['pay_schedule']);
                 }
                 echo "</div>";
             } else {

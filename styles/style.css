@@ -81,15 +81,34 @@ nav {
   border: 1px solid #e1e285;
   width: 50%;
   margin-left: 25%;
-  text-align: center; }
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
   .body h2 {
     font-size: 24px;
     font-weight: 500; }
   .body .bodyBox {
+    width: 45%;
+    border: 1px solid black;
     margin-top: 15px;
     margin-bottom: 15px; }
     .body .bodyBox p {
-      margin-top: 10px; }
+      margin-top: 10px;
+      color: #252521; }
+  .body .bodyBoxRight {
+    align-self: flex-end;
+    border: 1px solid black;
+    margin: 15px; }
+    .body .bodyBoxRight h3 {
+      font-size: 24px;
+      font-weight: 200; }
+    .body .bodyBoxRight h4 {
+      font-size: 32px;
+      font-weight: 400; }
+    .body .bodyBoxRight h5 {
+      font-size: 26px;
+      font-weight: 300; }
 
 .footer {
   margin-top: 100px;
@@ -119,18 +138,21 @@ nav {
     width: 100%;
     display: flex;
     flex-direction: row;
+    align-items: center;
     border-bottom: 1px solid black; }
     .bodyTable .bodyRow .bodyRowItem {
-      min-width: 30%;
-      max-width: 33%;
+      height: 100%;
+      width: 23.25%;
       border-right: 1px solid black;
       margin-left: 5px; }
     .bodyTable .bodyRow .bodyRowItemFirst {
       width: 7%;
+      height: 100%;
       border-right: 1px solid black;
       margin-left: 0px; }
     .bodyTable .bodyRow .bodyRowItemLast {
-      margin-left: 5px;
-      width: 33%; }
+      width: 23.25%;
+      height: 100%;
+      margin-left: 5px; }
 
 /*# sourceMappingURL=style.css.map */
