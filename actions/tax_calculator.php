@@ -12,40 +12,40 @@ function tax_calculator($pay, $pay_schedule) {
         case ($npay < 10000):
             return fica_deduction($pay);
             break;
-        case (10000 =< $npay < 12000):
+        case (10000 <= $npay):
             return (fica_deduction($pay) - ($pay * .1) - ($pay * .01));
             break;
-        case (12000 =< $npay < 20000):
+        case (12000 <= $npay):
             return (fica_deduction($pay) - ($pay * .1) - ($pay * .02));
             break;
-        case (20000 < $npay =< 30000): 
+        case (20000 <= $npay): 
             return (fica_deduction($pay) - ($pay * .15) - ($pay * .04));
             break;
-        case (30000 < $npay < 50000):
+        case (30000 <= $npay):
             return (fica_deduction($pay) - ($pay * .15) - ($pay * .06));
             break;
-        case (50000 =< $npay < 60000):
+        case (50000 <= $npay):
             return (fica_deduction($pay) - ($pay * .25) - ($pay * .08));
             break;
-        case (60000 =< $npay < 100000):
+        case (60000 <= $npay):
             return (fica_deduction($pay) - ($pay * .25) - ($pay * .093));
             break;
-        case (100000 =< $npay < 200000):
+        case (100000 <= $npay):
             return (fica_deduction($pay) - ($pay * .28) - ($pay * .093));
             break;
-        case (200000 =< $npay < 250000):
+        case (200000 <= $npay):
             return (fica_deduction($pay) - ($pay * .33) - ($pay * .093));
             break;
-        case (250000 =< $npay < 350000):
+        case (250000 <= $npay):
             return (fica_deduction($pay) - ($pay * .33) - ($pay * .103));
             break;
-        case (350000 =< $npay < 450000):
+        case (350000 <= $npay):
             return (fica_deduction($pay) - ($pay * .33) - ($pay * .113));
             break;
-        case (450000 =< $npay < 550000):
+        case (450000 <= $npay):
             return (fica_deduction($pay) - ($pay * .396) - ($pay * .113));
             break;
-        case (550000 =< $npay =< 1000000):
+        case (550000 <= $npay):
             return (fica_deduction($pay) - ($pay * .396) - ($pay * .123));
             break;
         case ($npay > 1000000):

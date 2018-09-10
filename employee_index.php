@@ -2,6 +2,8 @@
  
 include 'actions/get_employee.php';    
 include 'actions/get_hours.php';
+                        include 'actions/get_total_hours.php';
+
 ?>
     <div class="body">
         <h2> Welcome <?php echo $firstname; ?> </h2>
@@ -31,10 +33,11 @@ include 'actions/get_hours.php';
                 echo payday_due_date($pay_schedule);
                 ?></h4>
                 <h5><?php include 'actions/payday_calculator.php';
+                
                     if($salary_type == 'annual') {
                         echo "$". payday_calculator($salary, $salary_type, $pay_schedule);
                     } else {
-                        include 'actions/hourly_pay_calculator.php';
+                        echo "$" . payday_calculator($salary, $salary_type, $pay_schedule, get_total_hours($hoursMoSt, $hoursMoEn, $hoursTuSt, $hoursTuEn, $hoursWeSt, $hoursWeEn, $hoursThSt, $hoursThEn, $hoursFrSt, $hoursFrEn, $hoursSaSt, $hoursSaEn, $hoursSuSt, $hoursSuEn));
                     }
                 ?></h5>
             </div>

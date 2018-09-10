@@ -17,8 +17,6 @@
             <div class="headerLinks">
                 <?php if($isLoggedInEmployee): ?>
                     <a href="employee_overview.php">Overview</a>
-                    <a href="">History - Hours</a>
-                    <a href="">History - Salary</a>
                     <div class="loginSection">
                         <a href="login/logout_u.php">Logout</a>
                     </div>
@@ -26,7 +24,7 @@
                 <?php if($isLoggedInEmployer): ?>
                     <a href="view_employees.php">View Employees</a>
                     <a href="add_employee.php">Add An Employee</a>
-                    <a href="">Payroll Overview</a>
+                    <a href="payroll_overview.php">Payroll Overview</a>
                     <a href="">Hours Overview</a>
                     <div class="loginSection">
                         <a href="login/logout_a.php">Logout</a>

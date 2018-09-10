@@ -1,2 +1,0 @@
-database: digitaloceon mySQL
-hosting: ???
