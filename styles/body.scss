@@ -12,7 +12,7 @@
         font-weight: 500;
     }
     .bodyBox {
-        width: 45%;
+        width: 95%;
         border: 1px solid black;
          margin-top: 15px;
          margin-bottom: 15px;
@@ -37,5 +37,16 @@
             font-size: 26px;
             font-weight: 300;
         }
+    }
+}
+.bodyRow {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    .bodyRowItem {
+        width: 15%;
+        margin-left: 15px;
+        padding-right: 5px;
+        border-right: 1px solid black;
     }
 }

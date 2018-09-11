@@ -1,9 +1,8 @@
 <?php
-    include 'db/connect.php';
+
     include 'get_total_hours.php';
-    
-    $qry = "SELECT * from employeeInfo";
-    $result = $db->query($qry);
+    include 'get_all_employees.php';
+    $result = get_all_employees();
     
     if($result->num_rows > 0 ) {
         while($row = $result->fetch_assoc()) {

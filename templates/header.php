@@ -25,7 +25,7 @@
                     <a href="view_employees.php">View Employees</a>
                     <a href="add_employee.php">Add An Employee</a>
                     <a href="payroll_overview.php">Payroll Overview</a>
-                    <a href="">Hours Overview</a>
+                    <a href="hours_overview.php">Hours Overview</a>
                     <div class="loginSection">
                         <a href="login/logout_a.php">Logout</a>
                     </div>

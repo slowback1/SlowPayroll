@@ -8,11 +8,7 @@
         <?php echo payday_due_date('bimonthly'); ?>
         <h2>Amount Owed: </h2>
         <?php echo "$" . get_payroll('bimonthly'); ?>
-    </div>
-    <div class="bodyBox">
-        <h2>Details: </h2>
-        <?php// include 'templates/payroll_employee_view.php' ?>
-    </div>
+
 </div>
 
 

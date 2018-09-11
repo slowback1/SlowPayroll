@@ -1,10 +1,7 @@
 <?php 
-
-include 'db/connect.php'; 
-
+include 'actions/get_one_employee.php';
 $user = $_COOKIE['user'];
-$qry = "select * from employeeInfo where id=$user";
-$result = $db->query($qry);
+$result = get_one_employee($user);
 if($result->num_rows > 0 ) {
     while($row = $result -> fetch_assoc()) {
         $firstname = $row['firstname'];
