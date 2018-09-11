@@ -209,3 +209,6 @@
 [07-Sep-2018 00:40:57 UTC] PHP Fatal error:  Call to undefined function test_input() in /home/ubuntu/workspace/actions/add_employee.php on line 8
 [07-Sep-2018 00:40:57 UTC] PHP Stack trace:
 [07-Sep-2018 00:40:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/actions/add_employee.php:0
+[11-Sep-2018 14:18:39 UTC] PHP Parse error:  syntax error, unexpected '$id' (T_VARIABLE) in /home/ubuntu/workspace/actions/edit_benefits.php on line 5
+[11-Sep-2018 14:23:09 UTC] PHP Warning:  Unterminated comment starting line 9 in /home/ubuntu/workspace/actions/edit_benefits.php on line 9
+[11-Sep-2018 14:24:03 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE) in /home/ubuntu/workspace/actions/edit_benefits.php on line 6

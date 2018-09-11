@@ -17,6 +17,11 @@
                 $name = $row['firstname'] . ' ' . $row['lastname'];
                 echo "<p>Employee $eid ($name) is an hourly employee who is working over 40 hours.  They will recieve increased overtime pay.  To change their schedule, click <form method='post' name='edit_hours' action='../forms/edit_hours.php'><input type='hidden' name='id' value='" . $eid . "'/><input type='submit' name='here' value='here' /></form></p>";
             }
+            if($row['benefit_plan'] === null) {
+                $eid = $row['id'];
+                $name = $row['firstname'] . " " . $row['lastname'];
+                echo "<p> Employee $eid ($name) has no benefit plan! set one <form method='post' name='edit_benefits' action='../edit_benefits.php'><input type='hidden' name='id' value='".$eid."'/><input type='submit' name='here' value='here' /></form></p>";
+            }
         }
     } 
     
