@@ -18,6 +18,7 @@
         <br />
         <label>Re-Enter <?php echo $type;?></label>
         <input type="<?php echo ($type=='email' ? 'text' : 'password') ?>" name="<?php echo $type?>_two" maxlength="255" required />
+        <input type="submit" name="submit" value="submit" />
     </form>
 </div>
 

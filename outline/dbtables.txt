@@ -4,7 +4,7 @@ employeeInfo :
             id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
             firstname VARCHAR(255) NOT NULL,
             lastname VARCHAR(255) NOT NULL,
-            email VARCHAR(255) NOT NULL,
+            email VARCHAR(255) NOT NULL UNIQUE,
             join_date TIMESTAMP,
             salary INT(10) NOT NULL,
             salary_type VARCHAR(20) NOT NULL,
@@ -23,4 +23,5 @@ employeeInfo :
             hoursSuSt VARCHAR(10),
             hoursSuEn VARCHAR(10),
             bonuses INT(15),
-            pay_schedule VARCHAR(15) NOT NULL
+            pay_schedule VARCHAR(15) NOT NULL,
+            benefit_plan VARCHAR(255)

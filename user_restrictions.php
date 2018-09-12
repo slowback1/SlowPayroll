@@ -1,4 +1,4 @@
-<?php include 'login/redirect.php';
+<?php include_once 'login/redirect.php';
     if(!$isLoggedInEmployee) {
         redirect('index.php');
     }

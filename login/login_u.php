@@ -9,7 +9,6 @@ function Login() {
     }
     $username = test_input($_POST['username']);
     $password = storePW(test_input($_POST['password']));
-    echo $username . ' ' . $password . '<br /> <br />';
     $k = $db->query("select * from employeeInfo");
     if($k->num_rows > 0) {
         while($row = $k->fetch_assoc()) {
