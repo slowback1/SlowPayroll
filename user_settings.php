@@ -11,7 +11,6 @@ while($row = $result->fetch_assoc()) {
 ?>
 <div class="body">
     <h2> Settings for <?php echo $name; ?></h2>
-    <p>Email: <?php echo $email ?></p> 
     <form method='post' name='email_change' action='user_settings_form.php'>
         <input type='hidden' name='type' id='email' value='email' />
         <input type='hidden' name='id' id='id' value='<?php echo $id;?>' />

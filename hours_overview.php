@@ -1,49 +1,12 @@
 <?php include 'templates/header.php'; ?>
 <?php include 'actions/get_daily_hours.php'; ?>
 <div class="body">
-    
-    <div class="bodyBox">
-        <h3>Monday:</h3>
-        <div class="hourBox">
-            <?php echo get_daily_hours(0); ?>
-        </div>
-    </div>
-    <div class="bodyBox">
-        <h3>Tuesday:</h3>
-        <div class="hourBox">
-            <?php echo get_daily_hours(1); ?>
-        </div>
-    </div>
-    <div class="bodyBox">
-        <h3>Wednesday:</h3>
-        <div class="hourBox">
-            <?php echo get_daily_hours(2); ?>
-        </div>
-    </div>
-    <div class="bodyBox">
-        <h3>Thursday: </h3>
-        <div class="hourBox">
-            <?php echo get_daily_hours(3); ?>
-        </div>
-    </div>
-    <div class="bodyBox">
-        <h3>Friday: </h3>
-        <div class="hourBox">
-            <?php echo get_daily_hours(4); ?>
-        </div>
-    </div>
-    <div class="bodyBox">
-        <h3>Saturday: </h3>
-        <div class="hourBox">
-            <?php echo get_daily_hours(5); ?>
-        </div>
-    </div>
-    <div class="bodyBox">
-        <h3>Sunday: </h3>
-        <div class="hourBox">
-            <?php echo get_daily_hours(6); ?>
-        </div>
-    </div>
+    <?php 
+        $dow = ['Monday'=>0, "Tuesday"=>1, "Wednesday"=>2, "Thursday"=>3, "Friday"=>4, "Saturday"=>5, "Sunday"=>6];
+        foreach($dow as $day=>$day_num) {
+            echo "<div class='bodyBox'><h3>$day</h3><div class='hourBox'>" . get_daily_hours($day_num) . "</div></div>";
+        }
+    ?>
 </div>
 
 <?php include 'templates/footer.php'; ?>

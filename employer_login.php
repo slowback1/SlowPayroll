@@ -1,4 +1,5 @@
 <?php include 'templates/header.php'; ?>
+<?php include 'actions/check_login.php'; ?>
 <div class="body">
     <h2> Employer Login </h2>
     <form id="login" action='login/login_a.php' method="post" accept-charset="UTF-8">

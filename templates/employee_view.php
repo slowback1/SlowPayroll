@@ -1,6 +1,6 @@
 <?php 
-    include 'actions/payday_due_date.php';
-    include 'actions/payday_calculator.php';
+    include_once 'actions/payday_due_date.php';
+    include_once 'actions/payday_calculator.php';
 
     
     function employee_view($id, $firstname, $lastname, $salary, $salary_type, $salary_schedule) {
