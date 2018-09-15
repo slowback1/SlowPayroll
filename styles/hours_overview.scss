@@ -1,0 +1,30 @@
+.body {
+    .bodyBoxHour {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        h3 {
+            width: 100%;
+            background-color: $colors_background_secondary;
+            color: $colors_fonts_secondary;
+            font-size: 24px;
+            text-align: center;
+        }
+        .hourBox {
+            display: flex;
+            flex-direction: column;
+            .bodyRow {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                border-bottom: 1px solid $colors_background_secondary;
+                .bodyRowItem {
+                    width: 33.3%;
+                    text-align: center;
+                    border-right: 1px solid $colors_background_secondary;
+                }
+            }
+        }
+    }
+}

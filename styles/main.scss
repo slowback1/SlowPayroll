@@ -4,3 +4,19 @@
 @import 'body';
 @import 'footer';
 @import 'view_employees';
+@import 'add_employee';
+@import 'payroll_overview';
+@import 'hours_overview';
+@import 'login';
+@import 'edit_hours';
+@import 'employee_index';
+@import 'employee_overview';
+@import 'errorMsg';
+
+
+@media screen and (max-width: 930px) and (min-width: 590px) {
+    @import 'middle/main';
+}
+@media screen and (max-width: 590px) {
+    @import 'mobile/main';
+}

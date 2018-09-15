@@ -19,6 +19,7 @@ function Login() {
             }
         }
         echo "username or password don't match";
+        redirect('../employer_login.php?ecode=badinfo');
         return false;
     }
 }

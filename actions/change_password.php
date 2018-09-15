@@ -18,5 +18,7 @@
         }
     } else {
         echo "please recheck your entries";
+        include '../login/redirect.php';
+        redirect("../user_settings_form.php?ecode=badinfo&type=password&id=$id");
     }
 ?>

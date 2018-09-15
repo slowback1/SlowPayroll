@@ -38,4 +38,14 @@
                     </div>
                 <?php endif; ?>
             </div>
+                            <?php if($isLoggedInEmployer): ?> 
+                    <div class='mobileLogoutSection'>
+                        <a href="login/logout_a.php">Logout</a>
+                    </div>
+                <?php endif; ?>
+                <?php if($isloggedinEmployee): ?>
+                    <div class='mobileLogoutSection'>
+                        <a href="login/logout_u.php">Logout</a>
+                    </div>
+                <?php endif; ?>
         </nav>

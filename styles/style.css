@@ -51,21 +51,21 @@ a {
 
 nav {
   width: 100%;
-  background-color: #e1e285;
-  color: #252521;
+  background-color: #a82525;
+  color: #f2efef;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  height: 32px;
+  height: 48px;
   align-items: center; }
   nav .homeLink a img {
     width: 20px;
     height: 20px;
-    background-color: #e1e285;
+    background-color: #a82525;
     border-radius: 100%; }
   nav .headerLinks {
     height: 20px;
-    width: 45%;
+    width: 75%;
     display: flex;
     flex-direction: row;
     justify-content: space-between; }
@@ -74,58 +74,82 @@ nav {
       flex-direction: row;
       justify-content: space-around;
       width: 35%;
-      border: 1px solid #252521; }
+      border: 1px solid #f2efef; }
+  nav .mobileLogoutSection {
+    display: none; }
 
 .body {
-  margin-top: 20px;
-  border: 1px solid #e1e285;
-  width: 50%;
-  margin-left: 25%;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 10px;
+  background-color: #f2efef; }
   .body h2 {
-    font-size: 24px;
-    font-weight: 500; }
+    font-size: 28px;
+    font-weight: 200;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #770d0d;
+    color: #f2efef; }
   .body .bodyBox {
-    width: 95%;
-    border: 1px solid black;
+    width: 100%;
+    margin: 0;
     margin-top: 15px;
-    margin-bottom: 15px; }
-    .body .bodyBox p {
-      margin-top: 10px;
-      color: #252521; }
-  .body .bodyBoxRight {
-    align-self: flex-end;
-    border: 1px solid black;
-    margin: 15px; }
-    .body .bodyBoxRight h3 {
-      font-size: 24px;
-      font-weight: 200; }
-    .body .bodyBoxRight h4 {
-      font-size: 32px;
-      font-weight: 400; }
-    .body .bodyBoxRight h5 {
-      font-size: 26px;
-      font-weight: 300; }
-
-.bodyRow {
-  display: flex;
-  flex-direction: row;
-  width: 100%; }
-  .bodyRow .bodyRowItem {
-    width: 15%;
-    margin-left: 15px;
-    padding-right: 5px;
-    border-right: 1px solid black; }
+    display: flex;
+    flex-direction: row; }
+    .body .bodyBox .bodyBoxLeft {
+      display: flex;
+      flex-direction: column;
+      width: 55%;
+      border-right: 1px solid black; }
+      .body .bodyBox .bodyBoxLeft a, .body .bodyBox .bodyBoxLeft p {
+        font-size: 16px; }
+      .body .bodyBox .bodyBoxLeft h3 {
+        background-color: #770d0d;
+        color: #f2efef;
+        font-size: 18px;
+        font-weight: 200;
+        text-align: center; }
+      .body .bodyBox .bodyBoxLeft a {
+        margin-top: 10px;
+        margin-left: 5px;
+        color: #a82525; }
+    .body .bodyBox .bodyBoxRight {
+      min-width: 40%;
+      border-left: 1px solid black;
+      display: flex;
+      flex-direction: column; }
+      .body .bodyBox .bodyBoxRight h3 {
+        font-size: 18px;
+        font-weight: 200;
+        text-align: center;
+        color: #f2efef;
+        background-color: #770d0d; }
+      .body .bodyBox .bodyBoxRight .employerAlert {
+        display: flex;
+        background-color: #f2efef;
+        flex-direction: column;
+        border-bottom: 1px solid red;
+        padding-top: 10px;
+        padding-bottom: 10px; }
+        .body .bodyBox .bodyBoxRight .employerAlert p {
+          margin-left: 5px; }
+        .body .bodyBox .bodyBoxRight .employerAlert form input {
+          width: 14.5%;
+          height: 90%;
+          margin-top: 5px;
+          margin-left: 45%;
+          background-color: #7c1a1a;
+          color: #f2efef;
+          border: 2px solid #colors_buttons_fonts_primary;
+          border-radius: 10%; }
 
 .footer {
   margin-top: 100px;
   width: 100%;
   height: 50px;
-  background-color: #e1e285;
-  color: #252521;
+  background-color: #a82525;
+  color: #f2efef;
   display: flex;
   flex-direction: column;
   align-items: flex-start; }
@@ -139,30 +163,277 @@ nav {
       width: 30px; }
 
 .bodyTable {
-  border: 1px solid black;
-  width: 90%;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 5%; }
+  width: 95%;
+  margin: 2.5%;
+  display: flex;
+  flex-direction: column; }
   .bodyTable .bodyRow {
-    width: 100%;
+    font-size: 16px;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    border-bottom: 1px solid black; }
-    .bodyTable .bodyRow .bodyRowItem {
-      height: 100%;
-      width: 23.25%;
-      border-right: 1px solid black;
-      margin-left: 5px; }
+    border: 1px solid black; }
     .bodyTable .bodyRow .bodyRowItemFirst {
-      width: 7%;
-      height: 100%;
-      border-right: 1px solid black;
-      margin-left: 0px; }
+      width: 20%;
+      border-right: 1px solid black; }
+      .bodyTable .bodyRow .bodyRowItemFirst input {
+        width: 100%;
+        background-color: #7c1a1a;
+        color: #f2efef;
+        border-color: #7c1a1a; }
+    .bodyTable .bodyRow .bodyRowItem {
+      width: 20%;
+      text-align: center;
+      margin: auto 0; }
     .bodyTable .bodyRow .bodyRowItemLast {
-      width: 23.25%;
-      height: 100%;
-      margin-left: 5px; }
+      width: 20%;
+      text-align: center;
+      margin: auto 0; }
+
+fieldset {
+  display: flex; }
+  fieldset h3 {
+    background-color: #7c1a1a;
+    color: #f2efef;
+    font-size: 24px;
+    width: 25%;
+    margin-top: 25px;
+    margin-bottom: 25px; }
+  fieldset p {
+    background-color: #7c1a1a;
+    color: #f2efef;
+    width: 38%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 2%;
+    margin-bottom: 10px; }
+  fieldset input[type="text"] {
+    width: 40%;
+    margin-bottom: 10px; }
+  fieldset input[type="number"] {
+    width: 40%;
+    -moz-appearance: textfield;
+    margin-bottom: 10px; }
+  fieldset input[type="number"]::-webkit-inner-spin-button,
+  fieldset input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0; }
+  fieldset input[type="radio"] {
+    margin: 0; }
+  fieldset div {
+    width: 50%; }
+
+input[type="submit"] {
+  width: 100%;
+  height: 32px;
+  background-color: #7c1a1a;
+  color: #f2efef; }
+
+.payrollBody {
+  display: flex;
+  flex-direction: column; }
+  .payrollBody .bodyBoxTop {
+    display: flex;
+    flex-direction: row; }
+    .payrollBody .bodyBoxTop .payrollTopBox {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 18px;
+      align-items: center;
+      width: 50%;
+      justify-content: center;
+      display: flex;
+      flex-direction: row;
+      background-color: #770d0d;
+      color: #f2efef; }
+  .payrollBody .bodyBox {
+    flex-direction: column; }
+    .payrollBody .bodyBox .bodyRow {
+      display: flex;
+      flex-direction: row;
+      border-bottom: 1px solid #770d0d; }
+      .payrollBody .bodyBox .bodyRow .bodyRowItem {
+        width: 16%;
+        text-align: center; }
+
+.body .bodyBoxHour {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+  .body .bodyBoxHour h3 {
+    width: 100%;
+    background-color: #770d0d;
+    color: #f2efef;
+    font-size: 24px;
+    text-align: center; }
+  .body .bodyBoxHour .hourBox {
+    display: flex;
+    flex-direction: column; }
+    .body .bodyBoxHour .hourBox .bodyRow {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      border-bottom: 1px solid #770d0d; }
+      .body .bodyBoxHour .hourBox .bodyRow .bodyRowItem {
+        width: 33.3%;
+        text-align: center;
+        border-right: 1px solid #770d0d; }
+
+.login {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .login p {
+    padding: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 30%;
+    text-align: center; }
+  .login input {
+    width: 30%;
+    margin-bottom: 10px; }
+  .login input[type="text"] {
+    width: 30%; }
+  .login input[type="submit"] {
+    width: 100%; }
+
+.hoursField {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100vw; }
+  .hoursField p {
+    width: 28%;
+    text-align: center; }
+  .hoursField input, .hoursField input[type='text'], .hoursField input[type='number'] {
+    width: 30%; }
+
+table {
+  width: 100%; }
+  table tr {
+    width: 100%; }
+    table tr td {
+      width: 33%;
+      text-align: center; }
+
+.bodyBoxRight h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 200;
+  text-align: center; }
+
+.bodyBoxTop {
+  width: 100%; }
+  .bodyBoxTop h3 {
+    width: 100%;
+    background-color: #7c1a1a;
+    color: #f2efef;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+  .bodyBoxTop a {
+    margin: 10px 45%;
+    text-align: center;
+    color: #a82525; }
+
+.infoBox {
+  display: flex;
+  flex-direction: column; }
+  .infoBox .infoBoxRow {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #770d0d; }
+    .infoBox .infoBoxRow .infoBoxLabel {
+      width: 35%;
+      border-right: 1px solid #770d0d; }
+    .infoBox .infoBoxRow .infoBoxItem {
+      width: 70%; }
+
+.errorMsg {
+  margin: 10px auto;
+  width: 80%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 1px solid #a82525; }
+  .errorMsg p {
+    text-align: center;
+    color: #a82525; }
+
+@media screen and (max-width: 930px) and (min-width: 590px) {
+  nav {
+    font-size: 12px; }
+    nav .mobileLogoutSection {
+      display: none; }
+
+  .body {
+    margin: 0;
+    width: 100%; }
+
+  .login p {
+    width: 100%; }
+  .login input, .login input[type="text"] {
+    width: 100%; } }
+@media screen and (max-width: 590px) {
+  nav .mobileLogoutSection {
+    display: inline-block; }
+  nav .headerLinks {
+    display: none; }
+    nav .headerLinks .loginSection {
+      display: flex; }
+
+  .body {
+    width: 100%;
+    margin: 0; }
+    .body .bodyBox {
+      flex-direction: column; }
+      .body .bodyBox .bodyBoxLeft {
+        width: 100%;
+        margin-bottom: 15px; }
+
+  .bodyTable {
+    width: 100%;
+    margin: 0; }
+    .bodyTable .bodyRow {
+      font-size: 12px; }
+
+  fieldset {
+    flex-direction: column; }
+    fieldset div {
+      width: 100%;
+      margin: 0; }
+    fieldset h3 {
+      width: 100%;
+      text-align: center; }
+    fieldset p {
+      width: 100%; }
+    fieldset input[type="text"] {
+      width: 100%; }
+    fieldset input[type="number"] {
+      width: 100%; }
+
+  .payrollBody .bodyBoxTop {
+    flex-direction: column; }
+    .payrollBody .bodyBoxTop .payrollTopBox {
+      width: 100%;
+      margin: 0; }
+  .payrollBody .bodyBox {
+    font-size: 12px; }
+
+  .body .bodyBoxHour .hourBox {
+    font-size: 12px; }
+
+  .login p {
+    width: 100%; }
+  .login input, .login input[type="text"] {
+    width: 100%; }
+
+  .hoursField p {
+    width: 100%; }
+  .hoursField input, .hoursField input[type='text'], .hoursField input[type='number'] {
+    width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */

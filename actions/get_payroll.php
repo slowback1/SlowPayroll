@@ -58,7 +58,7 @@
             }
         }
 
-        return "$total </div><div class=bodyBox><h2>Details:</h2><div class='bodyRow'><div class='bodyRowItem'>ID</div><div class='bodyRowItem'>Name</div><div class='bodyRowItem'>Amount</div><div class='bodyRowItem'>Amount Taxed</div><div class='bodyRowItem'>Post-Tax Amount </div><div class='bodyRowItem'>Est. Benefits Cost </div></div>". $detailPiece . "</div>";
+        return "$total </p></div></div><div class=bodyBox><h2>Details:</h2><div class='bodyRow'><div class='bodyRowItem'>ID</div><div class='bodyRowItem'>Name</div><div class='bodyRowItem'>Amount</div><div class='bodyRowItem'>Amount Taxed</div><div class='bodyRowItem'>Post-Tax Amount </div><div class='bodyRowItem'>Est. Benefits Cost </div></div>". $detailPiece . "</div>";
     } else {
         echo "something went wrong " . $db->error;
     }

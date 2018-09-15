@@ -1,0 +1,14 @@
+nav {
+    .homeLink {
+        
+    }
+    .mobileLogoutSection {
+        display: inline-block;
+    }
+    .headerLinks {
+        display: none;
+        .loginSection {
+            display: flex;
+        }
+    }
+}

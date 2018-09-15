@@ -1,0 +1,14 @@
+.hoursField {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+    p {
+        width: 28%;
+        text-align: center;
+    }
+    input, input[type='text'], input[type='number'] {
+        width: 30%;
+    }
+}

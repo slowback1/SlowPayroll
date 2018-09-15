@@ -7,6 +7,11 @@ include 'actions/get_hours.php';
 ?>
     <div class="body">
         <h2> Welcome <?php echo $firstname; ?> </h2>
+        <div class="bodyBoxTop">
+            <h3>Quick Links:</h3>
+            <a href="employee_overview.php">Overview</a> <br />
+            <a href="user_settings.php">Settings</a>
+        </div>
         <div class="bodyBox">
             <div class="bodyBoxLeft">
                 <h3>Hours:</h3>
@@ -32,7 +37,8 @@ include 'actions/get_hours.php';
                 <h4><?php include 'actions/payday_due_date.php';
                 echo payday_due_date($pay_schedule);
                 ?></h4>
-                <h5><?php include 'actions/payday_calculator.php';
+                <h3>Post-Tax Paycheck:</h5>
+                <h4><?php include 'actions/payday_calculator.php';
                 
                     if($salary_type == 'annual') {
                         echo "$". payday_calculator($salary, $salary_type, $pay_schedule);

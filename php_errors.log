@@ -398,3 +398,32 @@
 [11-Sep-2018 23:39:03 UTC] PHP Fatal error:  Call to undefined function redirect() in /home/ubuntu/workspace/actions/change_email.php on line 14
 [11-Sep-2018 23:39:03 UTC] PHP Stack trace:
 [11-Sep-2018 23:39:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/actions/change_email.php:0
+[15-Sep-2018 21:44:13 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/login/login_u.php on line 22
+[15-Sep-2018 21:47:38 UTC] PHP Fatal error:  Cannot redeclare redirect() (previously declared in /home/ubuntu/workspace/login/redirect.php:2) in /home/ubuntu/workspace/login/redirect.php on line 2
+[15-Sep-2018 21:47:38 UTC] PHP Stack trace:
+[15-Sep-2018 21:47:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/login_u.php:0
+[15-Sep-2018 21:47:38 UTC] PHP   2. Login() /home/ubuntu/workspace/login/login_u.php:28
+[15-Sep-2018 23:23:21 UTC] PHP Fatal error:  Call to undefined function storePW() in /home/ubuntu/workspace/actions/reset_password.php on line 7
+[15-Sep-2018 23:23:21 UTC] PHP Stack trace:
+[15-Sep-2018 23:23:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/actions/reset_password.php:0
+[15-Sep-2018 23:24:23 UTC] PHP Fatal error:  Call to undefined method mysqli::error() in /home/ubuntu/workspace/actions/reset_password.php on line 14
+[15-Sep-2018 23:24:23 UTC] PHP Stack trace:
+[15-Sep-2018 23:24:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/actions/reset_password.php:0
+[15-Sep-2018 23:25:05 UTC] PHP Warning:  include(../login/redirect): failed to open stream: No such file or directory in /home/ubuntu/workspace/actions/reset_password.php on line 11
+[15-Sep-2018 23:25:05 UTC] PHP Stack trace:
+[15-Sep-2018 23:25:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/actions/reset_password.php:0
+[15-Sep-2018 23:25:05 UTC] PHP Warning:  include(): Failed opening '../login/redirect' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/actions/reset_password.php on line 11
+[15-Sep-2018 23:25:05 UTC] PHP Stack trace:
+[15-Sep-2018 23:25:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/actions/reset_password.php:0
+[15-Sep-2018 23:25:05 UTC] PHP Fatal error:  Call to undefined function redirect() in /home/ubuntu/workspace/actions/reset_password.php on line 12
+[15-Sep-2018 23:25:05 UTC] PHP Stack trace:
+[15-Sep-2018 23:25:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/actions/reset_password.php:0
+[15-Sep-2018 23:25:16 UTC] PHP Warning:  include(login/redirect): failed to open stream: No such file or directory in /home/ubuntu/workspace/actions/reset_password.php on line 11
+[15-Sep-2018 23:25:16 UTC] PHP Stack trace:
+[15-Sep-2018 23:25:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/actions/reset_password.php:0
+[15-Sep-2018 23:25:16 UTC] PHP Warning:  include(): Failed opening 'login/redirect' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/actions/reset_password.php on line 11
+[15-Sep-2018 23:25:16 UTC] PHP Stack trace:
+[15-Sep-2018 23:25:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/actions/reset_password.php:0
+[15-Sep-2018 23:25:16 UTC] PHP Fatal error:  Call to undefined function redirect() in /home/ubuntu/workspace/actions/reset_password.php on line 12
+[15-Sep-2018 23:25:16 UTC] PHP Stack trace:
+[15-Sep-2018 23:25:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/actions/reset_password.php:0

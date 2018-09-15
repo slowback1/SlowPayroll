@@ -1,52 +1,83 @@
 .body {
-    margin-top: 20px;
-    border: 1px solid $colors_background_primary;
-    width: 50%;
-    margin-left: 25%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10px;
+    background-color: $colors_fonts_secondary;
     h2 {
-        font-size: 24px;
-        font-weight: 500;
+        font-size: 28px;
+        font-weight: 200;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        background-color: $colors_background_secondary;
+        color: $colors_fonts_secondary;
     }
     .bodyBox {
-        width: 95%;
-        border: 1px solid black;
-         margin-top: 15px;
-         margin-bottom: 15px;
-         p {
-             margin-top: 10px;
-             color: $colors_fonts_primary;
-         }
-    }
-    .bodyBoxRight {
-        align-self: flex-end;
-        border: 1px solid black;
-        margin: 15px;
-        h3 {
-            font-size: 24px;
-            font-weight: 200;
+        width: 100%;
+        margin: 0;
+        margin-top: 15px;
+        display: flex;
+        flex-direction: row;
+        .bodyBoxLeft {
+            display: flex;
+            flex-direction: column;
+            width: 55%;
+            border-right: 1px solid black;
+            a, p {
+                font-size: 16px;
+            }
+            h3 {
+                background-color: $colors_background_secondary;
+                color: $colors_fonts_secondary;
+                font-size: 18px;
+                font-weight: 200;
+                text-align: center;
+            }
+            a {
+                margin-top: 10px;
+                margin-left: 5px;
+                color: $colors_background_primary;
+            }
+            
         }
-        h4 {
-            font-size: 32px;
-            font-weight: 400;
-        }
-        h5 {
-            font-size: 26px;
-            font-weight: 300;
+        .bodyBoxRight {
+            min-width: 40%;
+            border-left: 1px solid black;
+            display: flex;
+            flex-direction: column;
+            h3 {
+                font-size: 18px;
+                font-weight: 200;
+                text-align: center;
+                color: $colors_fonts_secondary;
+                background-color: $colors_background_secondary;
+            }
+            .employerAlert {
+                display: flex;
+                background-color: $colors_fonts_secondary;
+                flex-direction: column;
+                border-bottom: 1px solid red;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                p {
+                    margin-left: 5px;
+                }
+                form {
+                    input {
+                        width: 14.5%;
+                        height: 90%;
+                        margin-top: 5px;
+                        margin-left: 45%;
+                        background-color: $colors_buttons_background_primary;
+                        color: $colors_buttons_fonts_primary;
+                        border: 2px solid #colors_buttons_fonts_primary;
+                        border-radius: 10%;
+                    }
+                }
+            }
+            
+            
         }
     }
-}
-.bodyRow {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    .bodyRowItem {
-        width: 15%;
-        margin-left: 15px;
-        padding-right: 5px;
-        border-right: 1px solid black;
-    }
+    
 }

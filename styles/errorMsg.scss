@@ -1,0 +1,11 @@
+.errorMsg {
+    margin: 10px auto;
+    width: 80%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid $colors_background_primary;
+    p {
+        text-align: center;
+        color: $colors_background_primary;
+    }
+}

@@ -1,0 +1,12 @@
+.payrollBody {
+    .bodyBoxTop {
+        flex-direction: column;
+        .payrollTopBox {
+            width: 100%;
+            margin: 0;
+        }
+    }
+    .bodyBox {
+        font-size: 12px;
+    }
+}

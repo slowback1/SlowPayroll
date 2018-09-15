@@ -1,0 +1,33 @@
+.payrollBody {
+    display: flex;
+    flex-direction: column;
+    .bodyBoxTop {
+        display: flex;
+        flex-direction: row;
+        .payrollTopBox {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 18px;
+            align-items: center;
+            width: 50%;
+            justify-content: center;
+            display: flex;
+            flex-direction: row;
+            background-color: $colors_background_secondary;
+            color: $colors_fonts_secondary;
+        }
+        
+        }
+        .bodyBox {
+            flex-direction: column;
+            .bodyRow {
+            display: flex;
+            flex-direction: row;
+            border-bottom: 1px solid $colors_background_secondary;
+            .bodyRowItem {
+                width: 16%;
+                text-align: center;
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.infoBox {
+    display: flex;
+    flex-direction: column;
+    .infoBoxRow {
+        display: flex;
+        flex-direction: row;
+        border-bottom: 1px solid $colors_background_secondary;
+        .infoBoxLabel {
+            width: 35%;
+            border-right: 1px solid $colors_background_secondary;
+        }
+        .infoBoxItem {
+            width: 70%;
+        }
+    }
+}
