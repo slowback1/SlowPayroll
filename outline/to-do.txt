@@ -1,10 +1,8 @@
 * Employer side:
-    -edit employee page/action(s)
     -alerts
     -bugfix
     -password reset
-    -"requests"
-    -email validation
+
     
 * Employee side: 
     -more settings

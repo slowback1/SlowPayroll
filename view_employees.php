@@ -5,6 +5,11 @@
     include 'actions/get_all_employees.php';
 ?>
     <div class="body">
+        <?php
+            if($_GET['update'] == true) {
+                echo "<div class='errorMsg'><p>Successfully updated employee.</p></div>";
+            }
+        ?>
         <h2>Employee List</h2>
         <?php
             $result = get_all_employees();

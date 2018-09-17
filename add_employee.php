@@ -4,6 +4,14 @@
 ?>
 
 <div class="body">
+    <?php
+        if($_GET['ecode'] == 'bademail') {
+            echo "<div class='errorMsg'><p>Not a valid email address.</p></div>";
+        }
+        if($_GET['ecode'] == 'lowsalary') {
+            echo "<div class='errorMsg'><p>Salary is below minimum wage.</p></div>";
+        }
+    ?>
     <h2>Add Employee</h2>
     <form id="add_employee" action="actions/add_employee.php" method="post" accept-charset="UTF-8">
         <fieldset>

@@ -427,3 +427,22 @@
 [15-Sep-2018 23:25:16 UTC] PHP Fatal error:  Call to undefined function redirect() in /home/ubuntu/workspace/actions/reset_password.php on line 12
 [15-Sep-2018 23:25:16 UTC] PHP Stack trace:
 [15-Sep-2018 23:25:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/actions/reset_password.php:0
+[17-Sep-2018 20:11:10 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/actions/edit_employee.php on line 7
+[17-Sep-2018 20:40:58 UTC] PHP Warning:  include(../db/redirect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/actions/edit_employee.php on line 33
+[17-Sep-2018 20:40:58 UTC] PHP Stack trace:
+[17-Sep-2018 20:40:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/actions/edit_employee.php:0
+[17-Sep-2018 20:40:58 UTC] PHP Warning:  include(): Failed opening '../db/redirect.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/actions/edit_employee.php on line 33
+[17-Sep-2018 20:40:58 UTC] PHP Stack trace:
+[17-Sep-2018 20:40:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/actions/edit_employee.php:0
+[17-Sep-2018 20:40:58 UTC] PHP Fatal error:  Call to undefined function redirect() in /home/ubuntu/workspace/actions/edit_employee.php on line 34
+[17-Sep-2018 20:40:58 UTC] PHP Stack trace:
+[17-Sep-2018 20:40:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/actions/edit_employee.php:0
+[17-Sep-2018 20:43:51 UTC] PHP Warning:  include(../db/redirect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/actions/edit_employee.php on line 33
+[17-Sep-2018 20:43:51 UTC] PHP Stack trace:
+[17-Sep-2018 20:43:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/actions/edit_employee.php:0
+[17-Sep-2018 20:43:51 UTC] PHP Warning:  include(): Failed opening '../db/redirect.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/actions/edit_employee.php on line 33
+[17-Sep-2018 20:43:51 UTC] PHP Stack trace:
+[17-Sep-2018 20:43:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/actions/edit_employee.php:0
+[17-Sep-2018 20:43:51 UTC] PHP Fatal error:  Call to undefined function redirect() in /home/ubuntu/workspace/actions/edit_employee.php on line 34
+[17-Sep-2018 20:43:51 UTC] PHP Stack trace:
+[17-Sep-2018 20:43:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/actions/edit_employee.php:0
