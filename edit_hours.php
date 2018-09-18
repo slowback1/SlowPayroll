@@ -29,6 +29,7 @@
     
 ?>
 </div>
+<?php include 'templates/mobile_quicklinks.php'?>
 <?php include 'templates/footer.php' ?>
 <!-- neater version of above
 <form id='edit_schedule' action='../actions/edit_hours.php' method='post'>

@@ -25,3 +25,4 @@ employeeInfo :
             bonuses INT(15),
             pay_schedule VARCHAR(15) NOT NULL,
             benefit_plan VARCHAR(255)
+ 

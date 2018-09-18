@@ -1,0 +1,20 @@
+.mobileQuickLinks {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 150px;
+    background-color: $colors_fonts_secondary;
+    color: $colors_background_secondary;
+    h2 {
+        width: 100%;
+        font-size: 18px;
+        background-color: $colors_background_secondary;
+        color: $colors_fonts-secondary;
+        text-align: center;
+    }
+    a {
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+}

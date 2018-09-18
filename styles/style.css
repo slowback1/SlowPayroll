@@ -162,6 +162,9 @@ nav {
       height: 30px;
       width: 30px; }
 
+.mobileQuickLinks {
+  display: none; }
+
 .bodyTable {
   width: 95%;
   margin: 2.5%;
@@ -434,6 +437,24 @@ table {
   .hoursField p {
     width: 100%; }
   .hoursField input, .hoursField input[type='text'], .hoursField input[type='number'] {
-    width: 100%; } }
+    width: 100%; }
+
+  .mobileQuickLinks {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 150px;
+    background-color: #f2efef;
+    color: #770d0d; }
+    .mobileQuickLinks h2 {
+      width: 100%;
+      font-size: 18px;
+      background-color: #770d0d;
+      color: #f2efef;
+      text-align: center; }
+    .mobileQuickLinks a {
+      margin-left: 10px;
+      margin-top: 5px; } }
 
 /*# sourceMappingURL=style.css.map */

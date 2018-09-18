@@ -25,4 +25,5 @@
             }
         ?>
     </div>
+    <?php include 'templates/mobile_quicklinks.php'?>
     <?php include 'templates/footer.php'; ?>

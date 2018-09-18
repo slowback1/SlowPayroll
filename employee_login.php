@@ -21,4 +21,5 @@
     </form>
     <a href="forgot_password.php">Forgot Password?</a>
 </div>
+<?php include 'templates/mobile_quicklinks.php'?>
 <?php include 'templates/footer.php'; ?>

@@ -29,5 +29,5 @@
     </form>
     <a href="edit_hours.php">Edit Hours</a>
 </div>
-
+<?php include 'templates/mobile_quicklinks.php'?>
 <?php include 'templates/footer.php'; ?>

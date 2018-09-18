@@ -9,8 +9,8 @@ $firstname = test_input($_POST['firstname']);
 $lastname = test_input($_POST['lastname']);
 $email = test_input($_POST['email']);
 $salary = test_input($_POST['salary']);
-$salary_type = $_POST['salary_type'];
-$pay_schedule = $_POST['pay_schedule'];
+$salary_type = test_input($_POST['salary_type']);
+$pay_schedule = test_input($_POST['pay_schedule']);
 
 if(!filter_var($email, FILTER_VALIDATE_EMAIL)){
     redirect('../add_employee.php?ecode=bademail');

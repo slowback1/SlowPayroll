@@ -1,12 +1,9 @@
 * Employer side:
-    -alerts
     -bugfix
-    -password reset
-
     
 * Employee side: 
-    -more settings
-    -"requests"
-    -more deets on benefits plan
     -bugfix
+    
+* known bugs:
+    -
     

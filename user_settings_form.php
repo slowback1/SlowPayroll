@@ -4,7 +4,7 @@
 ?>
 
 <?php include 'templates/header.php';?>
-
+<?php include 'user_restrictions.php';?>
 <div class='body'>
     <?php
         if($_GET['ecode'] == 'badinfo') {
@@ -27,5 +27,5 @@
         </fieldset>
     </form>
 </div>
-
+<?php include 'templates/mobile_quicklinks.php'?>
 <?php include 'templates/footer.php'; ?>

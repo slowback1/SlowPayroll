@@ -6,10 +6,10 @@
     <div class="bodyBoxTop">
     <div class="payrollTopBox"><h4>Next Payday: </h4>
         <p><?php echo payday_due_date('bimonthly'); ?></p>
-        </div><div class="payrollTopBox"><h4>Amount Owed: </h4>
+        </div><div class="payrollTopBox"><h4>Estimated Amount Owed: </h4>
         <p><?php echo "$" . get_payroll('bimonthly'); ?>
 
 </div>
 
-
+<?php include 'templates/mobile_quicklinks.php'?>
 <?php include 'templates/footer.php'; ?>

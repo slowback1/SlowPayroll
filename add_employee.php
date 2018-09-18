@@ -34,6 +34,6 @@
                     <input type="submit" value="submit" name="submit" />
     </form>
 </div>
-
+<?php include 'templates/mobile_quicklinks.php' ?>
 
 <?php include 'templates/footer.php' ?>

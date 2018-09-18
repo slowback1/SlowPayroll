@@ -15,5 +15,6 @@
         <input type="submit" name="submit" value="submit">
     </form>
 </div>
+<?php include 'templates/mobile_quicklinks.php' ?>
 
 <?php include 'templates/footer.php';?>
