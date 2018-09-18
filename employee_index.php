@@ -9,7 +9,6 @@ include 'actions/get_hours.php';
         <h2> Welcome <?php echo $firstname; ?> </h2>
         <div class="bodyBoxTop">
             <h3>Quick Links:</h3>
-            <a href="employee_overview.php">Overview</a> <br />
             <a href="user_settings.php">Settings</a>
         </div>
         <div class="bodyBox">

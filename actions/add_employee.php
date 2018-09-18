@@ -25,7 +25,7 @@ $sql = "INSERT INTO employeeInfo (firstname, lastname, email, salary, salary_typ
 ";
 
 if($db->query($sql) === TRUE) {
-    redirect('../view_employees.php');
+    redirect('../view_employees.php?ecode=success');
 } else {
     echo "error: " .  $db->error;
 }

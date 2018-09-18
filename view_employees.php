@@ -9,6 +9,9 @@
             if($_GET['update'] == true) {
                 echo "<div class='errorMsg'><p>Successfully updated employee.</p></div>";
             }
+                    if($_GET['ecode'] == 'success') {
+            echo "<div class='errorMsg'><p>Sucessfully added employee. </p></div>";
+        }
         ?>
         <h2>Employee List</h2>
         <?php
