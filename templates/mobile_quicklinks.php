@@ -3,6 +3,7 @@
         <h2>Quick Links</h2>
     <?php if($isLoggedInEmployee): ?>
         <a href="index.php">Home</a>
+        <a href="employee_overview.php">Overview</a>
         <a href="user_settings.php">Settings</a>
     <?php elseif($isLoggedInEmployer): ?>
         <a href="index.php">Home</a>    

@@ -51,7 +51,7 @@ a {
 
 nav {
   width: 100%;
-  background-color: #a82525;
+  background-color: #23772c;
   color: #f2efef;
   display: flex;
   flex-direction: row;
@@ -61,7 +61,7 @@ nav {
   nav .homeLink a img {
     width: 20px;
     height: 20px;
-    background-color: #a82525;
+    background-color: #23772c;
     border-radius: 100%; }
   nav .headerLinks {
     height: 20px;
@@ -89,7 +89,7 @@ nav {
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
-    background-color: #770d0d;
+    background-color: #298932;
     color: #f2efef; }
   .body .bodyBox {
     width: 100%;
@@ -105,7 +105,7 @@ nav {
       .body .bodyBox .bodyBoxLeft a, .body .bodyBox .bodyBoxLeft p {
         font-size: 16px; }
       .body .bodyBox .bodyBoxLeft h3 {
-        background-color: #770d0d;
+        background-color: #298932;
         color: #f2efef;
         font-size: 18px;
         font-weight: 200;
@@ -113,7 +113,7 @@ nav {
       .body .bodyBox .bodyBoxLeft a {
         margin-top: 10px;
         margin-left: 5px;
-        color: #a82525; }
+        color: #23772c; }
     .body .bodyBox .bodyBoxRight {
       min-width: 40%;
       border-left: 1px solid black;
@@ -124,7 +124,7 @@ nav {
         font-weight: 200;
         text-align: center;
         color: #f2efef;
-        background-color: #770d0d; }
+        background-color: #298932; }
       .body .bodyBox .bodyBoxRight .employerAlert {
         display: flex;
         background-color: #f2efef;
@@ -139,7 +139,7 @@ nav {
           height: 90%;
           margin-top: 5px;
           margin-left: 45%;
-          background-color: #7c1a1a;
+          background-color: #32a83e;
           color: #f2efef;
           border: 2px solid #colors_buttons_fonts_primary;
           border-radius: 10%; }
@@ -148,7 +148,7 @@ nav {
   margin-top: 100px;
   width: 100%;
   height: 50px;
-  background-color: #a82525;
+  background-color: #23772c;
   color: #f2efef;
   display: flex;
   flex-direction: column;
@@ -180,9 +180,9 @@ nav {
       border-right: 1px solid black; }
       .bodyTable .bodyRow .bodyRowItemFirst input {
         width: 100%;
-        background-color: #7c1a1a;
+        background-color: #32a83e;
         color: #f2efef;
-        border-color: #7c1a1a; }
+        border-color: #32a83e; }
     .bodyTable .bodyRow .bodyRowItem {
       width: 20%;
       text-align: center;
@@ -195,14 +195,14 @@ nav {
 fieldset {
   display: flex; }
   fieldset h3 {
-    background-color: #7c1a1a;
+    background-color: #32a83e;
     color: #f2efef;
     font-size: 24px;
     width: 25%;
     margin-top: 25px;
     margin-bottom: 25px; }
   fieldset p {
-    background-color: #7c1a1a;
+    background-color: #32a83e;
     color: #f2efef;
     width: 38%;
     padding-top: 5px;
@@ -228,7 +228,7 @@ fieldset {
 input[type="submit"] {
   width: 100%;
   height: 32px;
-  background-color: #7c1a1a;
+  background-color: #32a83e;
   color: #f2efef; }
 
 .payrollBody {
@@ -246,14 +246,14 @@ input[type="submit"] {
       justify-content: center;
       display: flex;
       flex-direction: row;
-      background-color: #770d0d;
+      background-color: #298932;
       color: #f2efef; }
   .payrollBody .bodyBox {
     flex-direction: column; }
     .payrollBody .bodyBox .bodyRow {
       display: flex;
       flex-direction: row;
-      border-bottom: 1px solid #770d0d; }
+      border-bottom: 1px solid #298932; }
       .payrollBody .bodyBox .bodyRow .bodyRowItem {
         width: 16%;
         text-align: center; }
@@ -265,7 +265,7 @@ input[type="submit"] {
   margin-bottom: 50px; }
   .body .bodyBoxHour h3 {
     width: 100%;
-    background-color: #770d0d;
+    background-color: #298932;
     color: #f2efef;
     font-size: 24px;
     text-align: center; }
@@ -276,11 +276,11 @@ input[type="submit"] {
       width: 100%;
       display: flex;
       flex-direction: row;
-      border-bottom: 1px solid #770d0d; }
+      border-bottom: 1px solid #298932; }
       .body .bodyBoxHour .hourBox .bodyRow .bodyRowItem {
         width: 33.3%;
         text-align: center;
-        border-right: 1px solid #770d0d; }
+        border-right: 1px solid #298932; }
 
 .login {
   width: 100%;
@@ -333,7 +333,7 @@ table {
   width: 100%; }
   .bodyBoxTop h3 {
     width: 100%;
-    background-color: #7c1a1a;
+    background-color: #32a83e;
     color: #f2efef;
     text-align: center;
     padding-top: 10px;
@@ -341,7 +341,7 @@ table {
   .bodyBoxTop a {
     margin: 10px 45%;
     text-align: center;
-    color: #a82525; }
+    color: #23772c; }
 
 .infoBox {
   display: flex;
@@ -349,10 +349,10 @@ table {
   .infoBox .infoBoxRow {
     display: flex;
     flex-direction: row;
-    border-bottom: 1px solid #770d0d; }
+    border-bottom: 1px solid #298932; }
     .infoBox .infoBoxRow .infoBoxLabel {
       width: 35%;
-      border-right: 1px solid #770d0d; }
+      border-right: 1px solid #298932; }
     .infoBox .infoBoxRow .infoBoxItem {
       width: 70%; }
 
@@ -361,10 +361,10 @@ table {
   width: 80%;
   padding-top: 15px;
   padding-bottom: 15px;
-  border: 1px solid #a82525; }
+  border: 1px solid #23772c; }
   .errorMsg p {
     text-align: center;
-    color: #a82525; }
+    color: #23772c; }
 
 @media screen and (max-width: 930px) and (min-width: 590px) {
   nav {
@@ -446,11 +446,11 @@ table {
     width: 100%;
     min-height: 150px;
     background-color: #f2efef;
-    color: #770d0d; }
+    color: #298932; }
     .mobileQuickLinks h2 {
       width: 100%;
       font-size: 18px;
-      background-color: #770d0d;
+      background-color: #298932;
       color: #f2efef;
       text-align: center; }
     .mobileQuickLinks a {

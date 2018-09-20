@@ -16,6 +16,7 @@
             </div>
             <div class="headerLinks">
                 <?php if($isLoggedInEmployee): ?>
+                    <a href="employee_overview.php">Overview</a>
                     <a href="user_settings.php">Settings</a>
                     <div class="loginSection">
                         <a href="login/logout_u.php">Logout</a>
