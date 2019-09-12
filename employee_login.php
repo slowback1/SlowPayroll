@@ -14,9 +14,7 @@
             <input type="hidden" name="submitted" id="submitted" value="1" />
             <p for="username">Email: </p>
             <input type="text" name="username" id="username" maxlength="255" />
-            <p for="password"> Password: </p>
-            <input type="password" name="password" id="password" maxlength="255" />
-            <input type="submit" name="Submit" value="Submit" />
+           <input type="submit" name="Submit" value="Submit" />
         </fieldset>
     </form>
     <a href="forgot_password.php">Forgot Password?</a>

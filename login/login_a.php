@@ -8,7 +8,7 @@ function Login() {
         return false;
     }
     $username = test_input($_POST['username']);
-    $password = storePW(test_input($_POST['password']));
+    $password = test_input($_POST['password']);
     $k = $db->query("select * from adminUsers");
     if($k->num_rows > 0) {
         while($row = $k->fetch_assoc()) {

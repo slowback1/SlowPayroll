@@ -1,6 +1,6 @@
 <?php 
-    $isLoggedInEmployee = ($_COOKIE["user"] != null);
-    $isLoggedInEmployer = ($_COOKIE["admin"] != null);
+    $isLoggedInEmployee = (isset($_COOKIE['user']));
+    $isLoggedInEmployer = (isset($_COOKIE['admin']));
 ?>
 
 <html>
@@ -43,7 +43,7 @@
                         <a href="login/logout_a.php">Logout</a>
                     </div>
                 <?php endif; ?>
-                <?php if($isloggedinEmployee): ?>
+                <?php if(isset($_COOKIE['user'])): ?>
                     <div class='mobileLogoutSection'>
                         <a href="login/logout_u.php">Logout</a>
                     </div>

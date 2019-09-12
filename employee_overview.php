@@ -6,7 +6,7 @@
     <h2>Overview</h2>
     <div class="bodyBox">
         <?php  
-            include 'actions/get_one_employee.php';
+            include './actions/get_one_employee.php';
             $user = $_COOKIE['user'];
             $result = get_one_employee($user);
             if($result->num_rows > 0) {

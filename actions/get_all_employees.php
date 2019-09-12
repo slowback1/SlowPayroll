@@ -1,12 +1,11 @@
 <?php
     function get_all_employees() {
-       $servername = getenv('IP');
-    $username = getenv('C9_USER');
-    $password = '';
-    $database = "c9";
-    $dbport = 3306;
+        $hostname = "localhost";
+        $username = "root";
+        $password = "";
+        $dbname = "payroll";
     
-    $db = new mysqli($servername, $username, $password, $database, $dbport);
+    $db = new mysqli($hostname, $username, $password, $dbname);
     
         $qry = "SELECT * FROM employeeInfo";
         $result = $db->query($qry);

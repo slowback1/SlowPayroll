@@ -5,7 +5,7 @@
     $id = $_POST['id'];
     
     echo "
-<form id='edit_schedule' action='../actions/edit_hours.php' method='post'>
+<form id='edit_schedule' action='./actions/edit_hours.php' method='post'>
     <fieldset class='hoursField'>
     <input type='hidden' name='id' value='$id' />
     <p>Monday</p>

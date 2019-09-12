@@ -6,10 +6,10 @@
 ?>
     <div class="body">
         <?php
-            if($_GET['update'] == true) {
+            if(isset($_GET['update'])) {
                 echo "<div class='errorMsg'><p>Successfully updated employee.</p></div>";
             }
-                    if($_GET['ecode'] == 'success') {
+                    if(isset($_GET['ecode'])) {
             echo "<div class='errorMsg'><p>Sucessfully added employee. </p></div>";
         }
         ?>
